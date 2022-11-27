@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NBA</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/games.css">
+</head>
+<body>
+    <section class="header">
+        <div class="navigation">
+            <ul>
+                <li class="list">
+                    <a href="index.html">
+                        <span class="icon">
+                            <ion-icon name="home-outline"></ion-icon>
+                        </span>
+                        <span class="text">Startseite</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="teams.html">
+                        <span class="icon">
+                            <ion-icon name="basketball-outline"></ion-icon>
+                        </span>
+                        <span class="text">Teams</span>
+                    </a>
+                </li>
+                <li class="list active">
+                    <a href="games.html">
+                        <span class="icon">
+                            <ion-icon name="calendar-outline"></ion-icon>
+                        </span>
+                        <span class="text">Spielplan</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="hall-of-fame.html">
+                        <span class="icon">
+                            <ion-icon name="trophy-outline"></ion-icon>
+                        </span>
+                        <span class="text">Hall of Fame</span>
+                    </a>
+                </li>
+                <div class="indicator"></div>
+            </ul>
+        </div>
+    </section>
+
+    <section class="gameplan">
+        <embed src="images/schedule.pdf" style="width:100%; height:100%; min-height:85vh;">
+    </section>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

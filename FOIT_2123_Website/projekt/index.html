@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NBA</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="header">
+        <div class="navigation">
+            <ul>
+                <li class="list active">
+                    <a href="index.html">
+                        <span class="icon">
+                            <ion-icon name="home-outline"></ion-icon>
+                        </span>
+                        <span class="text">Startseite</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="teams.html">
+                        <span class="icon">
+                            <ion-icon name="basketball-outline"></ion-icon>
+                        </span>
+                        <span class="text">Teams</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="games.html">
+                        <span class="icon">
+                            <ion-icon name="calendar-outline"></ion-icon>
+                        </span>
+                        <span class="text">Spielplan</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="hall-of-fame.html">
+                        <span class="icon">
+                            <ion-icon name="trophy-outline"></ion-icon>
+                        </span>
+                        <span class="text">Hall of Fame</span>
+                    </a>
+                </li>
+                <div class="indicator"></div>
+            </ul>
+        </div>
+    </section>
+
+    <section class="info">
+        <h1>KIA MVP Ladder</h1>
+        <h2>1. <a href="https://www.nba.com/stats/player/203507">Giannis Antetokounmpo</a></h2>
+        <h2>2. <a href="https://www.nba.com/stats/player/1629029">Luka Dončić</a></h2>
+        <h2>3. <a href="https://www.nba.com/stats/player/1628369">Jayson Tatum</a></h2>
+        <h2>4. <a href="https://www.nba.com/stats/player/1628378">Donovan Mitchell</a></h2>
+        <h2>5. <a href="https://www.nba.com/stats/player/1629630">Ja Morant</a></h2>
+    </section>
+
+    <hr/>
+
+    <section class="table">
+        <h2>Eastern Conference</h2>
+        <table class="eastern-conference" style="overflow: auto;">
+            <tr>
+                <th width="44%">TEAM</th>
+                <th style="color: green;" width="7%">W</th>
+                <th style="color: red;" width="7%">L</th>
+                <th cwidth="7%">WIN %</th>
+                <th width="7%">CONF</th>
+                <th width="7%">DIV</th>
+                <th width="7%">HOME</th>
+                <th width="7%">ROAD</th>
+                <th width="7%">OT</th>
+            </tr>
+            <tr>
+                <td><a href="https://www.nba.com/celtics">Boston Celtics</a></td>
+                <td>11</td>
+                <td>3</td>
+                <td>.786</td>
+                <td>8-3</td>
+                <td>2-0</td>
+                <td>6-1</td>
+                <td>5-2</td>
+                <td>0-2</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.nba.com/bucks">Milwaukee Bucks</a></td>
+                <td>10</td>
+                <td>3</td>
+                <td>.769</td>
+                <td>6-2</td>
+                <td>2-0</td>
+                <td>7-1</td>
+                <td>3-2</td>
+                <td>1-0</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.nba.com/hawks">Atlanta Hawks</a></td>
+                <td>9</td>
+                <td>5</td>
+                <td>.643</td>
+                <td>7-4</td>
+                <td>1-1</td>
+                <td>5-2</td>
+                <td>4-3</td>
+                <td>1-0</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.nba.com/cavaliers">Cleveland Cavaliers</a></td>
+                <td>8</td>
+                <td>5</td>
+                <td>.615</td>
+                <td>7-1</td>
+                <td>2-0</td>
+                <td>4-1</td>
+                <td>4-4</td>
+                <td>3-0</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.nba.com/wizards">Washington Wizards</a></td>
+                <td>8</td>
+                <td>6</td>
+                <td>.571</td>
+                <td>5-5</td>
+                <td>1-0</td>
+                <td>5-3</td>
+                <td>3-3</td>
+                <td>0-1</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.nba.com/raptors/">Toronot Raptors</a></td>
+                <td>8</td>
+                <td>7</td>
+                <td>.533</td>
+                <td>6-5</td>
+                <td>1-2</td>
+                <td>5-1</td>
+                <td>3-6</td>
+                <td>0-0</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.nba.com/sixers">Philadelphia 76ers</a></td>
+                <td>7</td>
+                <td>7</td>
+                <td>.500</td>
+                <td>5-6</td>
+                <td>1-3</td>
+                <td>4-4</td>
+                <td>3-3</td>
+                <td>0-0</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.nba.com/nets">Indiana Pacers</a></td>
+                <td>6</td>
+                <td>6</td>
+                <td>.500</td>
+                <td>5-4</td>
+                <td>1-1</td>
+                <td>4-3</td>
+                <td>2-3</td>
+                <td>0-0</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.nba.com/heat">Miami Heats</a></td>
+                <td>7</td>
+                <td>7</td>
+                <td>.500</td>
+                <td>3-4</td>
+                <td>2-0</td>
+                <td>6-4</td>
+                <td>1-3</td>
+                <td>1-0</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.nba.com/bulls">New York Knicks</a></td>
+                <td>6</td>
+                <td>7</td>
+                <td>.462</td>
+                <td>5-5</td>
+                <td>1-2</td>
+                <td>4-3</td>
+                <td>2-4</td>
+                <td>1-1</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.nba.com/bulls">Chicago Bulls</a></td>
+                <td>6</td>
+                <td>8</td>
+                <td>.429</td>
+                <td>6-5</td>
+                <td>1-1</td>
+                <td>4-4</td>
+                <td>2-4</td>
+                <td>0-0</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.nba.com/nets">Brooklyn Nets</a></td>
+                <td>6</td>
+                <td>8</td>
+                <td>.429</td>
+                <td>5-5</td>
+                <td>2-0</td>
+                <td>3-4</td>
+                <td>3-4</td>
+                <td>0-1</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.nba.com/magic">Orlando Magic</a></td>
+                <td>4</td>
+                <td>10</td>
+                <td>.286</td>
+                <td>1-6</td>
+                <td>1-2</td>
+                <td>4-4</td>
+                <td>0-6</td>
+                <td>0-1</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.nba.com/hornets">Charlotte Hornets</a></td>
+                <td>4</td>
+                <td>11</td>
+                <td>.267</td>
+                <td>2-7</td>
+                <td>2-4</td>
+                <td>1-5</td>
+                <td>3-6</td>
+                <td>1-2</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.nba.com/pistons">Detroit Pistons</a></td>
+                <td>3</td>
+                <td>12</td>
+                <td>.200</td>
+                <td>1-12</td>
+                <td>0-4</td>
+                <td>3-5</td>
+                <td>0-7</td>
+                <td>0-0</td>
+            </tr>
+        </table>
+        <h2>Western Conference</h2>
+        <table class="western-conference" style="overflow: auto;">
+            <tr>
+                <th width="44%">TEAM</th>
+                <th style="color: green;" width="7%">W</th>
+                <th style="color: red;" width="7%">L</th>
+                <th cwidth="7%">WIN %</th>
+                <th width="7%">CONF</th>
+                <th width="7%">DIV</th>
+                <th width="7%">HOME</th>
+                <th width="7%">ROAD</th>
+                <th width="7%">OT</th>
+            </tr>
+            <tr>
+                <td><a href="https://www.nba.com/blazers">Portland Trail Blazers</a></td>
+                <td>9</td>
+                <td>4</td>
+                <td>.692</td>
+                <td>7-3</td>
+                <td>1-0</td>
+                <td>3-2</td>
+                <td>6-2</td>
+                <td>1-0</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.nba.com/nuggets">Denver Nuggets</a></td>
+                <td>9</td>
+                <td>4</td>
+                <td>.692</td>
+                <td>7-3</td>
+                <td>3-2</td>
+                <td>4-0</td>
+                <td>5-4</td>
+                <td>0-0</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.nba.com/jazz">Utah Jazz</a></td>
+                <td>10</td>
+                <td>5</td>
+                <td>.667</td>
+                <td>9-3</td>
+                <td>2-1</td>
+                <td>5-0</td>
+                <td>5-5</td>
+                <td>2-0</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.nba.com/grizzlies">Memphis Grizzlies</a></td>
+                <td>9</td>
+                <td>5</td>
+                <td>.643</td>
+                <td>5-3</td>
+                <td>2-1</td>
+                <td>5-1</td>
+                <td>4-4</td>
+                <td>2-0</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.nba.com/suns">Pheonix Suns</a></td>
+                <td>8</td>
+                <td>5</td>
+                <td>.615</td>
+                <td>8-2</td>
+                <td>2-0</td>
+                <td>6-1</td>
+                <td>2-4</td>
+                <td>0-1</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.mavs.com">Dallas Mavericks</a></td>
+                <td>7</td>
+                <td>5</td>
+                <td>.583</td>
+                <td>3-3</td>
+                <td>1-1</td>
+                <td>6-1</td>
+                <td>1-4</td>
+                <td>1-1</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.nba.com/clippers">LA Clippers</a></td>
+                <td>8</td>
+                <td>6</td>
+                <td>.571</td>
+                <td>7-5</td>
+                <td>3-1</td>
+                <td>3-4</td>
+                <td>5-2</td>
+                <td>0-0</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.nba.com/pelicans">New Orleans Pelicans</a></td>
+                <td>7</td>
+                <td>6</td>
+                <td>.538</td>
+                <td>4-4</td>
+                <td>2-0</td>
+                <td>3-2</td>
+                <td>4-4</td>
+                <td>0-3</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.nba.com/kings">Sacramento Kings</a></td>
+                <td>6</td>
+                <td>6</td>
+                <td>.500</td>
+                <td>2-5</td>
+                <td>2-3</td>
+                <td>3-3</td>
+                <td>3-3</td>
+                <td>1-0</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.nba.com/warriors">Golden State Warriors</a></td>
+                <td>6</td>
+                <td>8</td>
+                <td>.429</td>
+                <td>4-4</td>
+                <td>3-2</td>
+                <td>6-1</td>
+                <td>0-7</td>
+                <td>0-1</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.nba.com/timberwolves">Minnesota Timberwolves</a></td>
+                <td>6</td>
+                <td>8</td>
+                <td>.429</td>
+                <td>5-6</td>
+                <td>2-1</td>
+                <td>4-5</td>
+                <td>2-3</td>
+                <td>0-1</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.nba.com/spurs">San Antonio Spurs</a></td>
+                <td>6</td>
+                <td>8</td>
+                <td>.429</td>
+                <td>2-6</td>
+                <td>0-1</td>
+                <td>3-5</td>
+                <td>3-3</td>
+                <td>0-1</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.nba.com/thunder">Oklahoma City Thunder</a></td>
+                <td>6</td>
+                <td>8</td>
+                <td>.429</td>
+                <td>3-4</td>
+                <td>0-4</td>
+                <td>4-3</td>
+                <td>2-5</td>
+                <td>1-1</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.nba.com/lakers">Los Angeles Lakers</a></td>
+                <td>3</td>
+                <td>10</td>
+                <td>.231</td>
+                <td>2-9</td>
+                <td>0-4</td>
+                <td>3-5</td>
+                <td>0-5</td>
+                <td>1-0</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.nba.com/rockets">Houston Rockets</a></td>
+                <td>2</td>
+                <td>12</td>
+                <td>.143</td>
+                <td>1-9</td>
+                <td>0-2</td>
+                <td>1-3</td>
+                <td>1-9</td>
+                <td>0-0</td>
+            </tr>
+        </table>
+    </section>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

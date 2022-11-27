@@ -1,0 +1,32 @@
+.header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fett {
+    font-weight: bold;
+}
+
+.gross {
+    text-transform: uppercase;
+}
+
+.rot {
+    color: red;
+}
+
+.background-green {
+    background-color: lightgreen;
+}
+
+.linienhoehe {
+    background-color: darkgreen;
+    padding: 10px;
+}
+
+.kursiv {
+    font-style: italic;
+}
+
+.small-caps {
+    font-variant: small-caps;
+}

@@ -1,0 +1,27 @@
+:root {
+    --clr: #222327;
+}
+
+.hall-of-fame {
+    background: var(--clr);
+    min-height: 85vh;
+}
+
+.hall-of-fame h1 {
+    margin-left: 10px;
+    color: white;
+}
+
+.hall-of-fame h2 {
+    margin-left: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.hall-of-fame p {
+    color: white;
+}
+
+.hall-of-fame a {
+    color: #00a9ff;
+}

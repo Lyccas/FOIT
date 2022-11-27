@@ -1,0 +1,29 @@
+.mitte {
+    text-align: center;
+}
+
+.block {
+    block-size: auto;
+}
+
+.link {
+    text-decoration: none;
+    color: blue;
+}
+
+.unterstrich {
+    text-decoration: underline;
+}
+
+.auseinander {
+    letter-spacing: 10px;
+}
+
+.background-green {
+    background-color: greenyellow;
+}
+
+.background-green-lineheight {
+    background-color: greenyellow;
+    padding: 10px;
+}
