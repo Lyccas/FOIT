@@ -1,7 +1,5 @@
 package b_12FOIT.iv.buch;
 
-import java.util.Arrays;
-
 public class Buch {
     private String title;
 
@@ -24,10 +22,11 @@ public class Buch {
 
     @Override
     public String toString() {
-        int ausgabe = 0;
+        StringBuilder str = new StringBuilder();
         for (int i = 0; i < seite.length; i++) {
-            ausgabe = ausgabe + i;
+            str.append("*".repeat(25) + "\n");
+            str.append(seite[i].toString() + "\n");
         }
-        return title + seite[ausgabe];
+        return title + "\n" + str.toString();
     }
 }
