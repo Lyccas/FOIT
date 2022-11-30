@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="033ec1ce-29a2-43e3-843c-e2423a6f483b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/b_12FOIT/ii/ii_xxxx/auto/Auto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/b_12FOIT/ii/ii_xxxx/auto/Auto.vsdx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/b_12FOIT/ii/ii_xxxx/auto/Autofahren.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/b_12FOIT/ii/ii_xxxx/ticket/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/b_12FOIT/ii/ii_xxxx/ticket/Ticket.vsdx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/b_12FOIT/iii/Doppeldecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/b_12FOIT/iii/Flugzeug.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/b_12FOIT/iii/Verkehrsflugzeug.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOIT_2123_Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FOIT_2123_Java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/b_12FOIT/ii_xx/artikel/Artikel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/b_12FOIT/ii/ii_xx/artikel/Artikel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/b_12FOIT/ii_xx/artikel/MainArtikel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/b_12FOIT/ii/ii_xx/artikel/MainArtikel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/b_12FOIT/ii_xx/dose/Dose.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/b_12FOIT/ii/ii_xx/dose/Dose.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/b_12FOIT/ii_xx/dose/MainDoseberechnen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/b_12FOIT/ii/ii_xx/dose/MainDoseberechnen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/b_12FOIT/ii_xx/personenwaage/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/b_12FOIT/ii/ii_xx/personenwaage/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/b_12FOIT/ii_xx/personenwaage/StartWiegen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/b_12FOIT/ii/ii_xx/personenwaage/StartWiegen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/b_12FOIT/ii_xxx/arbeitnehmer/Arbeitnehmer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/b_12FOIT/ii/ii_xxx/arbeitnehmer/Arbeitnehmer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/b_12FOIT/ii_xxx/arbeitnehmer/Startklasse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/b_12FOIT/ii/ii_xxx/arbeitnehmer/Startklasse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/b_12FOIT/ii_xxx/konto/Konto.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/b_12FOIT/ii/ii_xxx/konto/Konto.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/b_12FOIT/ii_xxx/konto/Konto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/b_12FOIT/ii/ii_xxx/konto/Konto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/b_12FOIT/ii_xxx/konto/Kontobewegung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/b_12FOIT/ii/ii_xxx/konto/Kontobewegung.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/b_12FOIT/ii_xxx/osterhasenhelfer/MainOsterhasenhelfer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/b_12FOIT/ii/ii_xxx/osterhasenhelfer/MainOsterhasenhelfer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/b_12FOIT/ii_xxx/osterhasenhelfer/Osterhasenhelfer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/b_12FOIT/ii/ii_xxx/osterhasenhelfer/Osterhasenhelfer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/b_12FOIT/ii_xxx/osterhasenhelferGUI/MainOsterhasenhelfer.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/b_12FOIT/ii/ii_xxx/osterhasenhelferGUI/MainOsterhasenhelfer.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/b_12FOIT/ii_xxx/osterhasenhelferGUI/MainOsterhasenhelfer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/b_12FOIT/ii/ii_xxx/osterhasenhelferGUI/MainOsterhasenhelfer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/b_12FOIT/ii_xxx/osterhasenhelferGUI/Osterhasenhelfer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/b_12FOIT/ii/ii_xxx/osterhasenhelferGUI/Osterhasenhelfer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/b_12FOIT/ii_xxxx/Auto/Auto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/b_12FOIT/ii_xxxx/Auto/Auto.vsdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/b_12FOIT/ii_xxxx/Auto/Autofahren.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/b_12FOIT/ii_xxxx/Ticket/Ticket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/b_12FOIT/ii_xxxx/Ticket/Ticket.vsdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/b_12FOIT/ii_xxxx/auto/Thumbs.db" beforeDir="false" afterPath="$PROJECT_DIR$/src/b_12FOIT/ii/ii_xxxx/auto/Thumbs.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/b_12FOIT/ii_xxxx/schildkroete/Rennen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/b_12FOIT/ii/ii_xxxxx/schildkroete/Rennen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/b_12FOIT/ii_xxxx/schildkroete/Schildkroete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/b_12FOIT/ii/ii_xxxxx/schildkroete/Schildkroete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/b_12FOIT/ii_xxxx/ticket/TicketGUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/b_12FOIT/ii/ii_xxxx/ticket/TicketGUI.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/b_12FOIT/ii_xxxx/ticket/TicketGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/b_12FOIT/ii/ii_xxxx/ticket/TicketGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/b_12FOIT/ii_xxxx/umrechner/MainUmrechner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/b_12FOIT/ii/ii_xxxxx/umrechner/MainUmrechner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/b_12FOIT/ii_xxxx/umrechner/Umrechner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/b_12FOIT/ii/ii_xxxxx/umrechner/Umrechner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/b_12FOIT/iii_xx/figur/Dreieck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/b_12FOIT/ii/figur/Dreieck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/b_12FOIT/iii_xx/figur/Figur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/b_12FOIT/ii/figur/Figur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/b_12FOIT/iii_xx/figur/Kreis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/b_12FOIT/ii/figur/Kreis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/b_12FOIT/iii_xx/figur/MainFigur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/b_12FOIT/ii/figur/MainFigur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/b_12FOIT/iii_xx/figur/Rechteck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/b_12FOIT/ii/figur/Rechteck.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2AoHTr6sJxqPnccD0vqJIBc0TGB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH&quot;: &quot;42&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/FOIT_2123_Java/src/projekt/vokabeltrainer&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JAVA&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\FOIT_2123_Java\src\projekt\vokabeltrainer" />
+      <recent name="D:\FOIT_2123_Java\src\b_12FOIT\ii_xxx\osterhasenhelferGUI" />
+      <recent name="D:\FOIT_2123_Java\src\gui" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\FOIT_2123_Java\src\b_12FOIT\ii\ii_xxxx" />
+      <recent name="D:\FOIT_2123_Java\src\b_12FOIT\ii_xxx\osterhasenhelferGUI" />
+      <recent name="D:\FOIT_2123_Java\src\b_12FOIT\ii_xxx" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="projekt.mitgliederliste" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Start">
+    <configuration name="Mitglieder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Mitglieder" />
+      <module name="FOIT_2123_Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="projekt.vokabeltrainer.Start" />
+      <module name="FOIT_2123_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="projekt.vokabeltrainer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="b_12FOIT.ii.ii_xxx.osterhasenhelferGUI.MainOsterhasenhelfer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="b_12FOIT.ii.ii_xxx.osterhasenhelferGUI.MainOsterhasenhelfer" />
+      <module name="FOIT_2123_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="b_12FOIT.ii.ii_xxx.osterhasenhelferGUI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="b_12FOIT.ii.ii_xxxxx.schildkroete.Rennen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="b_12FOIT.ii.ii_xxxxx.schildkroete.Rennen" />
+      <module name="FOIT_2123_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="b_12FOIT.ii.ii_xxxxx.schildkroete.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="projekt.mitgliederliste.Mitglieder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="projekt.mitgliederliste.Mitglieder" />
+      <module name="FOIT_2123_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="projekt.mitgliederliste.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="projekt.mitgliederliste.Mitglieder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="projekt.mitgliederliste.Mitglieder" />
+      <module name="FOIT_2123_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="projekt.mitgliederliste.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Start" />
+        <item itemvalue="Application.b_12FOIT.ii.ii_xxxxx.schildkroete.Rennen" />
+        <item itemvalue="Application.projekt.mitgliederliste.Mitglieder" />
+        <item itemvalue="Application.b_12FOIT.ii.ii_xxx.osterhasenhelferGUI.MainOsterhasenhelfer" />
+        <item itemvalue="Application.Mitglieder" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="033ec1ce-29a2-43e3-843c-e2423a6f483b" name="Changes" comment="" />
+      <created>1655669029426</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1655669029426</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/FOIT_2123_Java" />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gui/A25.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
