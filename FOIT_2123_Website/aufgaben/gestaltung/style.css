@@ -3,7 +3,7 @@
 }
 
 .block {
-    block-size: auto;
+    text-align: justify;
 }
 
 .link {
@@ -25,5 +25,5 @@
 
 .background-green-lineheight {
     background-color: greenyellow;
-    padding: 10px;
+    line-height: 30px;
 }

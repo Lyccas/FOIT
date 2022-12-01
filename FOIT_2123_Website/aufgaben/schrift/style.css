@@ -19,8 +19,9 @@
 }
 
 .linienhoehe {
+    color: white;
     background-color: darkgreen;
-    padding: 10px;
+    line-height: 30px;
 }
 
 .kursiv {
