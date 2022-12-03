@@ -1,6 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\FOIT_2123_Website",
+    "\\FOIT_2123_Website\\aufgaben",
+    "\\FOIT_2123_Website\\aufgaben\\abstand",
+    "\\FOIT_2123_Website\\aufgaben\\block",
+    "\\FOIT_2123_Website\\aufgaben\\rahmen"
   ],
+  "SelectedNode": "\\FOIT_2123_Website\\aufgaben\\rahmen\\index.html",
   "PreviewInSolutionExplorer": false
 }

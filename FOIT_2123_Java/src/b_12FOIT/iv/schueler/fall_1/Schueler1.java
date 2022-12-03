@@ -37,6 +37,4 @@ public class Schueler1 {
                 "Nachname: " + nachname + "\n" +
                 "Alter: " + alter;
     }
-
-
 }

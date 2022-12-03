@@ -1,0 +1,47 @@
+.rahmen-dotted {
+    border: 5px dotted blue;
+}
+
+.rahmen-dashed {
+    border: 5px dashed blue;
+}
+
+.rahmen-solid {
+    border: 5px solid blue;
+}
+
+.rahmen-double {
+    border: 5px double blue;
+}
+
+.rahmen-groove {
+    border: 5px groove blue;
+}
+
+.rahmen-ridge {
+    border: 5px ridge blue;
+}
+
+.rahmen-inset {
+    border: 5px inset blue;
+}
+
+.rahmen-outset {
+    border: 5px outset blue;
+}
+
+.rahmen-fancy {
+    border-top: 5px dashed green;
+    border-left: 5px solid red;
+    border-bottom: 5px dotted lightblue;
+    border-right: 5px groove yellow;
+}
+
+.rahmen-unten {
+    border-bottom: 5px solid blue;
+}
+
+.rahmen-rund {
+    border: 5px solid red;
+    border-radius: 5px;
+}
