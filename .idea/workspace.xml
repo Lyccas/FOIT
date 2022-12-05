@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c2e3d63-141c-415f-b57e-0c2fbcfcb205" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/iv/schueler/fall_1/Schueler1.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/iv/schueler/fall_1/Schueler1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/iv/schueler/fall_3/Fall3Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/iv/schueler/fall_3/Fall3Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/iv/schueler/fall_3/Klasse3.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/iv/schueler/fall_3/Klasse3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/iv/schueler/fall_3/Schueler3.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/iv/schueler/fall_3/Schueler3.java" afterDir="false" />
-    </list>
+    <list default="true" id="0c2e3d63-141c-415f-b57e-0c2fbcfcb205" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
