@@ -32,9 +32,9 @@
 
 .rahmen-fancy {
     border-top: 5px dashed green;
-    border-left: 5px solid red;
-    border-bottom: 5px dotted lightblue;
     border-right: 5px groove yellow;
+    border-bottom: 5px dotted lightblue;
+    border-left: 5px solid red;
 }
 
 .rahmen-unten {
