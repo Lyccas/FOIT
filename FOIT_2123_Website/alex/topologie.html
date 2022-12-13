@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section class="nav">
+    <section class="nav" style="height: 585vh;">
         <div class="dropdown">
             <button onclick="myFunction()" class="dropbtn">Menü</button>
             <div id="myDropdown" class="dropdown-content">
@@ -18,24 +18,216 @@
               <a href="client-server-modell.html">Client-Server-Modell</a>
               <a href="schichtenmodell.html">Schichtenmodell</a>
               <a href="url-aufbau.html">URL-Aufbau</a>
-              <a href="top-level-domain.html">Top-Level-Domain</a>
             </div>
           </div>
     </section>
 
-    <section class="header">
+    <section class="header" style="margin-top: -593.4vh;">
         <img src="images/logo.jpg">
         <h1>Topologie</h1>
     </section>
 
     <section class="main">
-        <h1>Hier kommen alle Informationen hin</h1>
-        <p>bla bli blu</p>
-        <p>bla bli blu</p>
-        <p>bla bli blu</p>
-        <p>bla bli blu</p>
-        <p>bla bli blu</p>
-        <p>bla bli blu</p>
+        <h1>Topologie</h1>
+        <ul>
+            <li>Netzwerke werden mithilfe von Topologien aufgebaut, es werden mehrere Geräte in einem Netzwerk verbunden</li>
+            <li>Topologie -> Art und Weise, wie Geräte miteinander verbunden sind (physikalische Verbindung, also mit Kabel, von Geräten in einem Netzwerk)</li>
+            <li>Es werden nicht nur Rechner, sogenannte Clients, miteinander verbunden, sondern auch Server spielen für die Netzwerkverbindung eine Rolle (allgemein werden diese Netzwerkteilnehmer Hosts genannt)</li>
+            <li>Um Hosts miteinander zu verbinden, benötigt man meist weitere Netzwerkkomponenten mit Verteilfunktion</li>
+            <ul>
+                <li>dies können beispielsweiser Switches sein, die für die Verbindung einzelner Geräte zuständig sind</li>
+                <li>oder Router, die für die Internetverbindung zuständig sind</li>
+            </ul>
+            <li>Einfachste Art ein Netzwerk zu erstellen ist die Punkt-zu-Punkt Topologie: direkte Verbindung mit zwei Hosts über ein Kabel, damit die zwei Geräte miteinander kommunizieren können</li>
+        </ul>
+        <img src="images/Picture1.jpg">
+        <ul>
+            <li>In der Praxis werden aber meist mehrere Hosts miteinander verbunden. Dabei wird häufig eine Mischung aus den vier Grundtopologien verwendet: damit die nötigen Anforderungen eines Netzwerkes erfüllt werden kann (Es gibt auch noch weitere und komplexere Topologien und oft werden diese miteinander kombiniert)</li>
+        </ul>
+
+        <hr>
+
+        <h1>Bus - Topologie</h1>
+        <ul>
+            <li>alle Geräte sind mit demselben Übertragungsmedium, dem Bus, verbunden (Verbindung aller Hosts über gleiche Leitung (Bus)</li>
+            <li>Zugriff auf Signale</li>
+            <li>Regelung des Ablaufs mit Datenprotokollen</li>
+            <li>Bus selbst dient als passives Übertragungsmedium</li>
+        </ul>
+        <table>
+            <tr>
+                <th>Vorteile</th>
+                <th>Nachteile</th>
+            </tr>
+            <tr>
+                <td>
+                    <ul>
+                        <li>einfache Installation</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>begrenzte Netzausdehnung</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <ul>
+                        <li>kurze Leitungen</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>bei Kabelbruch -> Netzausfall</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <ul>
+                        <li>Aufwendige Zugriddsmethoden</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <img src="images/Picture2.jpg">
+
+        <hr>
+
+        <h1>Ring - Topologie</h1>
+        <ul>
+            <li>ringförmige Verbindung der Geräte über geschlossene Kabelstrecke</li>
+            <li>Regelung der Steuerung und des Zugriffs mit Datenprotokollen</li>
+        </ul>
+        <table>
+            <tr>
+                <th>Vorteile</th>
+                <th>Nachteile</th>
+            </tr>
+            <tr>
+                <td>
+                    <ul>
+                        <li>verteilte Steuerung</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>aufwendige Fehlersuche</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <ul>
+                        <li>große Netzausdehnung</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>hoher Verkabelungsaufwand</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <ul>
+                        <li>Netzausfall bei Störungen</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <img src="images/Picture3.jpg">
+
+        <hr>
+
+        <h1>Stern - Topologie</h1>
+        <ul>
+            <li>sternförmige Verbindung mehrerer Hosts</li>
+            <li>zentrale Netzwerkkomponente (Hub/Switch)</li>
+            <li>hohe Datenbelastung</li>
+        </ul>
+        <table>
+            <tr>
+                <th>Vorteile</th>
+                <th>Nachteile</th>
+            </tr>
+            <tr>
+                <td>
+                    <ul>
+                        <li>einfache Vernetzung und Erweiterung</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>hoher Verkabelungsaufwand</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <ul>
+                        <li>hohe Ausfallsicherheit</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Netzausfall bei Überlastung</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <img src="images/Picture4.jpg">
+
+        <hr>
+
+        <h1>Maschen - Topologie</h1>
+        <ul>
+            <li>dezentrales Netzwerk</li>
+            <li>keine verbindlichen Strukturen</li>
+            <li>keine Verbindung zwischen allen Hosts</li>
+        </ul>
+        <table>
+            <tr>
+                <th>Vorteile</th>
+                <th>Nachteile</th>
+            </tr>
+            <tr>
+                <td>
+                    <ul>
+                        <li>dezentrale Steuerung</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>teure Vernetzung</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <ul>
+                        <li>hohe Ausfallsicherheit</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>aufwendige Administration</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <ul>
+                        <li>beliebig weite Netzwerkerweiterung</li>
+                    </ul>
+                </td>
+                <td></td>
+            </tr>
+        </table>
+        <img src="images/Picture5.jpg">
     </section>
 
     <script>

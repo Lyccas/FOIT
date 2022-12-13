@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section class="nav">
+    <section class="nav" style="height: 150vh;">
         <div class="dropdown">
             <button onclick="myFunction()" class="dropbtn">Menü</button>
             <div id="myDropdown" class="dropdown-content">
@@ -18,24 +18,33 @@
               <a href="client-server-modell.html">Client-Server-Modell</a>
               <a href="schichtenmodell.html">Schichtenmodell</a>
               <a href="url-aufbau.html">URL-Aufbau</a>
-              <a href="top-level-domain.html">Top-Level-Domain</a>
             </div>
           </div>
     </section>
 
-    <section class="header">
+    <section class="header" style="margin-top: -158.4vh;">
         <img src="images/logo.jpg">
         <h1>Schichtenmodell</h1>
     </section>
 
     <section class="main">
-        <h1>Hier kommen alle Informationen hin</h1>
-        <p>bla bli blu</p>
-        <p>bla bli blu</p>
-        <p>bla bli blu</p>
-        <p>bla bli blu</p>
-        <p>bla bli blu</p>
-        <p>bla bli blu</p>
+        <h1>Schichtenmodell</h1>
+        <ul>
+            <li>Das Schichtenmodell oder auch OSI Modell (Open Systems Interconnection) ermöglicht die standardisierte Kommunikation zwischen Computersystemen und besteht aus sieben Schichten</li>
+            <li>Probleme werden leichter gefunden und innerhalb einer Schicht lösen (sehr nützlich, da unnötiger Aufwand vermieden wird)</li>
+            <li>Die Schichten können miteinander kommunizieren und Daten unter sich austauschen, zudem hat jede Schicht eine spezielle, festgelegte Funktion</li>
+        </ul>
+        <img src="images/Picture6.jpg">
+        <ul>
+            <li>Bei einer Kommunikation zwischen zwei Systemen werden alle Schichten mindestens zwei Mal angewendet, einmal beim Sender und einmal beim Empfänger (abhängig von den Zwischenstationen der Kommunikationsstrecke durchläuft die Kommunikation auch hier mehrmals das Schichtenmodell)</li>
+            <li>1. Schicht -> Bitübertragung = Umwandlung der Bits in ein zum Medium passendes Signal und physische Übertragung</li>
+            <li>2. Schicht -> Sicherung = Segmentierung der Pakete in Frames sowie Fehlererkennung, Fehlerbehebung und Datenflusskontrolle</li>
+            <li>3. Schicht -> Vermittlung = Weiterleitung der Datenpakete zum nächsten Knoten</li>
+            <li>4. Schicht -> Transport = Zuordnung der Datenpakete zu einer Anwendung</li>
+            <li>5. Schicht -> Kommunikation = Steuerung der Verbindungen und des Datenaustauschs</li>
+            <li>6. Schicht -> Darstellung = Umwandlung der systemabhängigen Daten in ein unabhängiges Format</li>
+            <li>7. Schicht -> Anwendung = Funktionen für Anwendungen sowie die Dateneingabe und -ausgabe</li>
+        </ul>
     </section>
 
     <script>

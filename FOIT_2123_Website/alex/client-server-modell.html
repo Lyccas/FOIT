@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section class="nav">
+    <section class="nav" style="height: 280vh;">
         <div class="dropdown">
             <button onclick="myFunction()" class="dropbtn">Menü</button>
             <div id="myDropdown" class="dropdown-content">
@@ -18,24 +18,58 @@
               <a href="client-server-modell.html">Client-Server-Modell</a>
               <a href="schichtenmodell.html">Schichtenmodell</a>
               <a href="url-aufbau.html">URL-Aufbau</a>
-              <a href="top-level-domain.html">Top-Level-Domain</a>
             </div>
           </div>
     </section>
 
-    <section class="header">
+    <section class="header" style="margin-top: -288.4vh;">
         <img src="images/logo.jpg">
         <h1>Client-Server-Modell</h1>
     </section>
 
     <section class="main">
-        <h1>Hier kommen alle Informationen hin</h1>
-        <p>bla bli blu</p>
-        <p>bla bli blu</p>
-        <p>bla bli blu</p>
-        <p>bla bli blu</p>
-        <p>bla bli blu</p>
-        <p>bla bli blu</p>
+        <h1>Client - Server - Modell</h1>
+        <Ein><img src="images/Netzwerk-Typen.gif" style="float: right; height: 650px;">Das Client-Server-Modell beschreibt eine Möglichkeit, Aufgaben und Dienstleistungen innerhalb eines Netzwerks zu verteilen. Die Aufgaben werden von Programmen erledigt, die in Clients und Server unterteilt werden. Der Client kann auf Wunsch einen Dienst vom Server anfordern. Der Server, der sich auf demselben oder einem anderen Rechner im Netzwerk befindet, beantwortet die Anforderung (das heißt, er stellt im Beispiel das Betriebsmittel bereit); üblicherweise kann ein Server gleichzeitig für mehrere Clients arbeiten. <br><br>Ein Server ist ein Programm, das einen Netzwerkdienst anbietet, der Client kann diesen Dienst nutzen. Die Kommunikation zwischen Client und Server ist abhängig vom Dienst, das heißt, der Dienst bestimmt, welche Daten zwischen beiden ausgetauscht werden. Der Server ist in Bereitschaft, jederzeit auf die Kontaktaufnahme eines Clients reagieren zu können. Im Unterschied zum Client, der aktiv einen Dienst anfordert, verhält sich der Server passiv und wartet auf Anforderungen. Die Regeln der Kommunikation für einen Dienst (Format, Aufruf des Servers, Bedeutung der zwischen Server und Client ausgetauschten Daten), werden durch ein für den jeweiligen Dienst spezifisches Protokoll festgelegt.<br><br>Clients und Server können als Programme auf verschiedenen Rechnern oder auf demselben Rechner ablaufen. Allgemein kann es so ausgebaut werden, dass Server zu Software werden und für unterschiedliche Aufgaben zuständig sind, wie z.B. Mail-Server, Web-Server, Anwendungsserver, Datenbank-Server.<br><br>Da die Server jetzt in Gruppen auf einem Rechner laufen, ist es jetzt normal diese Rechner, Server zu nennen.<br><br>Im Unterschied zum Peer-to-Peer Modell, bei dem ein beteiligtes Programm innerhalb des Netzwerkes gleichzeitig Client und Server darstellt. Beim Client-Server-Modell sind Client und Server getrennt und auf verschiedene Programme verteilt.</p>
+
+        <hr>
+
+        <h2>Definitionen</h2>
+        <ul>
+            <li>Server</li>
+            <ul>
+                <p>Ein Server ist ein Programm(Prozess), das mit einem anderen Programm (Prozess), dem Client kommuniziert, um ihm Zugang zu einem Dienst zu verschaffen. Hierbei muss abgrenzend beachtet werden, dass es sich bei „Server“ um eine Rolle handelt, nicht um einen Computer an sich. Ein Computer kann nämlich ein Server und Client zugleich sein, wie z.B. Peer-to-Peer</p>
+            </ul>
+        </ul>
+        <ul>
+            <li>Client</li>
+            <ul>
+                <p>Ein Client kann einen Dienst bei dem Server anfordern, der diesen Dienst bereitstellt.</p>
+            </ul>
+        </ul>
+        <ul>
+            <li>Protokoll</li>
+            <ul>
+                <p>Kommunikationsprotokoll, eine Vereinbarung wie die Datenübertragung zwischen den beiden Parteien Server und Client abläuft.</p>
+            </ul>
+        </ul>
+        <ul>
+            <li>Request</li>
+            <ul>
+                <p>Anforderung eines Clients an den Server, dessen Dienst er benötigt.</p>
+            </ul>
+        </ul>
+        <ul>
+            <li>Response</li>
+            <ul>
+                <p>Antwort eines Servers auf eine Anforderung eines Clients.</p>
+            </ul>
+        </ul>
+        <ul>
+            <li>Anwendungsserver</li>
+            <ul>
+                <p>Ein Server in einem Computernetzwerk, der Anwendungsprogramme ausführt. Im engeren Sinne bezeichnet der Begriff eine Software, die spezielle Dienste zur Verfügung stellt, wie beispielsweise Transaktionen, Authentifizierung</p>
+            </ul>
+        </ul>
     </section>
 
     <script>

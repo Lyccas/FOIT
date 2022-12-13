@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section class="nav">
+    <section class="nav" style="height: 250vh;">
         <div class="dropdown">
             <button onclick="myFunction()" class="dropbtn">Menü</button>
             <div id="myDropdown" class="dropdown-content">
@@ -18,24 +18,54 @@
               <a href="client-server-modell.html">Client-Server-Modell</a>
               <a href="schichtenmodell.html">Schichtenmodell</a>
               <a href="url-aufbau.html">URL-Aufbau</a>
-              <a href="top-level-domain.html">Top-Level-Domain</a>
             </div>
           </div>
     </section>
 
-    <section class="header">
+    <section class="header" style="margin-top: -258.4vh;">
         <img src="images/logo.jpg">
         <h1>URL-Aufbau</h1>
     </section>
 
     <section class="main">
-        <h1>Hier kommen alle Informationen hin</h1>
-        <p>bla bli blu</p>
-        <p>bla bli blu</p>
-        <p>bla bli blu</p>
-        <p>bla bli blu</p>
-        <p>bla bli blu</p>
-        <p>bla bli blu</p>
+        <h1>Allgemein URL</h1>
+        <ul>
+            <li>Ein Wegweiser einer bestimmten Website</li>
+            <li>Man gibt ein URL im Browser ein und gelangt zu der dazugehörigen Internetseite</li>
+            <li>leitet nicht nur zu Websites</li>
+            <li>Ein URL ist grundsätzlich immer auch eine URI, während eine URI auch etwas anderes sein kann</li>
+            <li>Besteht aus sinnhaften Wörtern und Zahlen -> bleibt leichter im Gedächtnis</li>
+        </ul>
+
+        <hr>
+
+        <h1>Allgemein Domain</h1>
+        <ul>
+            <li>der weltweit eindeutige Name einer Website</li>
+            <li>ein Teil der URL</li>
+            <li>besteht aus Third-Level-Domain (Subdomain), Domain (Second-Level-Domain) und Top-Level-Domain</li>
+        </ul>
+
+        <hr>
+        
+        <h1>Aufbau</h1>
+        <p>Eine URL - wie zum Beispiel <a href="https://www.gymnasium-taunusstein.de/lehren-lernen/faecher/" target="_blank">https://www.gymnasium-taunusstein.de/lehren-lernen/faecher/</a> - besteht aus den folgenden Komponenten:  </p>
+        <img src="images/url1.jpg">
+        <ul>
+            <li>https:// = das Übertragungs-Protokoll, mit dem im Internet Dateien übertragen werden (Alternativen:  https:// oder ftp://)</li>
+            <li>www = der Subdomain (Third-Level-Domain) für den Webserver</li>
+            <li>gymnasium-taunusstein = die einmalig vergebene Domain</li>
+            <li>de = der Top-Level-Domain für den Webserver</li>
+            <li>/lehren-lernen/faecher/ = der Verzeichnispfad, der zu einer bestimmten Datei führt</li>
+        </ul>
+        <img src="images/url2.jpg">
+        <p>Welche Zeichen kann ein URL enthalten?</p>
+        <ul>
+            <li>kann nicht jedes beliebige Zeichen vorkommen</li>
+            <li>einige ausgewählte ASCII-Zeichen -> alle lateinischen Buchstaben in Groß- und in Kleinschreibung, arabische Ziffern</li>
+            <li>Punkt, das Minus oder der Unterstrich können frei für den Domainnamen oder an anderer Stelle der URL verwendet werden</li>
+            <li>Doppelpunkt, Schrägstrich, Fragezeichen und Klammern -> in der URL feste Funktionen zugeschrieben</li>
+        </ul>
     </section>
 
     <script>
