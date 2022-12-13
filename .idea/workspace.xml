@@ -4,7 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c2e3d63-141c-415f-b57e-0c2fbcfcb205" name="Changes" comment="" />
+    <list default="true" id="0c2e3d63-141c-415f-b57e-0c2fbcfcb205" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/x_klassenarbeit/massumrechner/MainMassumrechner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/x_klassenarbeit/massumrechner/Massumrechner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/x_klassenarbeit/tier/MainTier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/x_klassenarbeit/tier/Pinguin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/x_klassenarbeit/tier/Rentier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/x_klassenarbeit/tier/Tier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/x_klassenarbeit/weihnachtsbaecker/MainWeihnachtsbaecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/x_klassenarbeit/weihnachtsbaecker/Weihnachtsbaecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/x_klassenarbeit/weihnachtsbaum/Weihnachtsbaum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/x_klassenarbeit/weihnachtsbaum/WeihnachtsbaumMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOIT_2123_Java/src/a_11FOIT/StringArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOIT_2123_Java/src/a_11FOIT/x_einstieg/StringArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOIT_2123_Java/src/a_11FOIT/StringCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOIT_2123_Java/src/a_11FOIT/x_einstieg/StringCases.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOIT_2123_Java/src/a_11FOIT/einstieg/BspDatentypenVariablen.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOIT_2123_Java/src/a_11FOIT/x_einstieg/BspDatentypenVariablen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOIT_2123_Java/src/a_11FOIT/einstieg/BspDatentypenVariablenScanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOIT_2123_Java/src/a_11FOIT/x_einstieg/BspDatentypenVariablenScanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOIT_2123_Java/src/a_11FOIT/einstieg/BspEuroFormatieren.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOIT_2123_Java/src/a_11FOIT/x_einstieg/BspEuroFormatieren.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/pokemon/MainPokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/x_pokemon/MainPokemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/pokemon/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/x_pokemon/Pokemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/vererbung/Hund.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/x_vererbung/Hund.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/vererbung/Katze.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/x_vererbung/Katze.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/vererbung/MainTierwelt.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/x_vererbung/MainTierwelt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/vererbung/Tier.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/x_vererbung/Tier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/zu1BeziehungKundeAdresse/Adresse.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/x_zu1BeziehungKundeAdresse/Adresse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/zu1BeziehungKundeAdresse/Kunde.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/x_zu1BeziehungKundeAdresse/Kunde.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/zu1BeziehungKundeAdresse/MainKundenprojekt.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/x_zu1BeziehungKundeAdresse/MainKundenprojekt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOIT_2123_Java/src/klassenarbeit/Eurojackpot.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOIT_2123_Java/src/a_11FOIT/x_klassenarbeit/Eurojackpot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOIT_2123_Java/src/klassenarbeit/Fach_Noten.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOIT_2123_Java/src/a_11FOIT/x_klassenarbeit/Fach_Noten.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOIT_2123_Java/src/klassenarbeit/Plaetzchen.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOIT_2123_Java/src/a_11FOIT/x_klassenarbeit/Plaetzchen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOIT_2123_Java/src/klassenarbeit/Weihnachtsbonus.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOIT_2123_Java/src/a_11FOIT/x_klassenarbeit/Weihnachtsbonus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOIT_2123_Java/src/klassenarbeit/Weihnachtskugel.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOIT_2123_Java/src/a_11FOIT/x_klassenarbeit/Weihnachtskugel.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,9 +66,16 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/FOIT&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\FOIT\FOIT_2123_Java\src\b_12FOIT\x_klassenarbeit\massumrechner" />
+      <recent name="D:\FOIT\FOIT_2123_Java\src\b_12FOIT\x_klassenarbeit\weihnachtsbaecker" />
+      <recent name="D:\FOIT\FOIT_2123_Java\src\b_12FOIT\x_klassenarbeit\tier" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.Fall3Main">
     <configuration name="BuchMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="b_12FOIT.iv.buch.BuchMain" />
