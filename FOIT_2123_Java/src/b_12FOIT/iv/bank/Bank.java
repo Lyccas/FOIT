@@ -3,11 +3,9 @@ package b_12FOIT.iv.bank;
 import java.util.ArrayList;
 
 public class Bank {
-  // Anfang Attribute
     private String filialbezeichnung;
 
     private ArrayList<Konto> kontoListe;
-  // Ende Attribute
 
     public Bank(String filialbezeichnung) {
         this.filialbezeichnung = filialbezeichnung;
@@ -15,7 +13,6 @@ public class Bank {
         kontoListe = new ArrayList<>();
     }
 
-  // Anfang Methoden
     public String getFilialbezeichnung() {
         return filialbezeichnung;
     }
@@ -105,8 +102,6 @@ public class Bank {
         return kontostand;
     }
 
-
-
     public double getNiedrigstenKontostand() {
         double kontostand = kontoListe.get(0).getKontostand();
         for (int i = 0; i < kontoListe.size(); i++) {
@@ -117,5 +112,4 @@ public class Bank {
 
         return kontostand;
     }
-  // Ende Methoden
 }

@@ -4,39 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c2e3d63-141c-415f-b57e-0c2fbcfcb205" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/x_klassenarbeit/massumrechner/MainMassumrechner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/x_klassenarbeit/massumrechner/Massumrechner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/x_klassenarbeit/tier/MainTier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/x_klassenarbeit/tier/Pinguin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/x_klassenarbeit/tier/Rentier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/x_klassenarbeit/tier/Tier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/x_klassenarbeit/weihnachtsbaecker/MainWeihnachtsbaecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/x_klassenarbeit/weihnachtsbaecker/Weihnachtsbaecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/x_klassenarbeit/weihnachtsbaum/Weihnachtsbaum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/x_klassenarbeit/weihnachtsbaum/WeihnachtsbaumMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOIT_2123_Java/src/a_11FOIT/StringArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOIT_2123_Java/src/a_11FOIT/x_einstieg/StringArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOIT_2123_Java/src/a_11FOIT/StringCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOIT_2123_Java/src/a_11FOIT/x_einstieg/StringCases.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOIT_2123_Java/src/a_11FOIT/einstieg/BspDatentypenVariablen.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOIT_2123_Java/src/a_11FOIT/x_einstieg/BspDatentypenVariablen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOIT_2123_Java/src/a_11FOIT/einstieg/BspDatentypenVariablenScanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOIT_2123_Java/src/a_11FOIT/x_einstieg/BspDatentypenVariablenScanner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOIT_2123_Java/src/a_11FOIT/einstieg/BspEuroFormatieren.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOIT_2123_Java/src/a_11FOIT/x_einstieg/BspEuroFormatieren.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/pokemon/MainPokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/x_pokemon/MainPokemon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/pokemon/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/x_pokemon/Pokemon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/vererbung/Hund.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/x_vererbung/Hund.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/vererbung/Katze.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/x_vererbung/Katze.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/vererbung/MainTierwelt.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/x_vererbung/MainTierwelt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/vererbung/Tier.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/x_vererbung/Tier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/zu1BeziehungKundeAdresse/Adresse.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/x_zu1BeziehungKundeAdresse/Adresse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/zu1BeziehungKundeAdresse/Kunde.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/x_zu1BeziehungKundeAdresse/Kunde.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/zu1BeziehungKundeAdresse/MainKundenprojekt.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOIT_2123_Java/src/b_12FOIT/x_zu1BeziehungKundeAdresse/MainKundenprojekt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOIT_2123_Java/src/klassenarbeit/Eurojackpot.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOIT_2123_Java/src/a_11FOIT/x_klassenarbeit/Eurojackpot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOIT_2123_Java/src/klassenarbeit/Fach_Noten.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOIT_2123_Java/src/a_11FOIT/x_klassenarbeit/Fach_Noten.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOIT_2123_Java/src/klassenarbeit/Plaetzchen.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOIT_2123_Java/src/a_11FOIT/x_klassenarbeit/Plaetzchen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOIT_2123_Java/src/klassenarbeit/Weihnachtsbonus.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOIT_2123_Java/src/a_11FOIT/x_klassenarbeit/Weihnachtsbonus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOIT_2123_Java/src/klassenarbeit/Weihnachtskugel.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOIT_2123_Java/src/a_11FOIT/x_klassenarbeit/Weihnachtskugel.java" afterDir="false" />
-    </list>
+    <list default="true" id="0c2e3d63-141c-415f-b57e-0c2fbcfcb205" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
