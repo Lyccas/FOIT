@@ -1,0 +1,43 @@
+﻿[Files]
+File0=\\pegasos\lukas.dombert$\Desktop\bank\Bank.java
+File1=\\pegasos\lukas.dombert$\Desktop\bank\Konto.java
+
+[Box:  - Bank]
+X=796
+Y=51
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+FontSize=12
+FontName=Segoe UI
+
+[Box:  - Konto]
+X=154
+Y=30
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+FontSize=12
+FontName=Segoe UI
+
+[Diagram]
+comments=0
+OffsetX=0
+OffsetY=0
+Visibility=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+ShowConnections=0
+Fontname=Segoe UI
+Fontsize=12
+ShowObjectDiagram=0
+
+[Connections]
+V0=Bank#Konto#AssociationDirected#1##*#0#0#-1##-kontenListe#0#0
+
+[Interactive]
+I0=
+
