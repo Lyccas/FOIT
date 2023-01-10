@@ -29,18 +29,29 @@ public class Bank {
         kontoListe.remove(index);
     }
 
-    public void showKonto(int index) {
-        System.out.println(kontoListe.get(index));
+    public Konto showKonto(int index) {
+        return kontoListe.get(index);
     }
 
     public int gebeAnzahlKonten() {
         return kontoListe.size();
     }
 
+    //for-Schleife
     public double errechneBankguthaben() {
         double guthaben = 0;
         for (int i = 0; i < kontoListe.size(); i++) {
             guthaben = guthaben + kontoListe.get(i).getKontostand();
+        }
+
+        return guthaben;
+    }
+
+    //for-each-Schleife
+    public double errechneGesamtBankguthaben() {
+        double guthaben = 0;
+        for (Konto konto : kontoListe) {
+            guthaben = guthaben + konto.getKontostand();
         }
 
         return guthaben;
@@ -53,6 +64,16 @@ public class Bank {
     public boolean sucheKonto(String iban) {
         for (int i = 0; i < kontoListe.size(); i++) {
             if (kontoListe.get(i).getIban().equals(iban)) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    public boolean sucheKontoIBAN(String iban) {
+        for (Konto konto : kontoListe) {
+            if (konto.getIban().equals(iban)) {
                 return true;
             }
         }
