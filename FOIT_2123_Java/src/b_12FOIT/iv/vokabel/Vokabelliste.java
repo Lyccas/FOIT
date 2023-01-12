@@ -31,11 +31,55 @@ public class Vokabelliste {
         this.thema = thema;
     }
 
-    public boolean sucheVokabel(String wort) {
-        boolean isVorhanden = false;
-        for (int i = 0; i < meineListe.size(); i++) {
-            isVorhanden = meineListe.get(i).equals(wort);
+    public boolean sucheDeutschVokabel(String deutsch) {
+        for (Vokabel vokabel : meineListe) {
+            if(vokabel.getDeutscheswort().equals(deutsch)) {
+                return true;
+            }
         }
-        return isVorhanden;
+
+        return false;
+    }
+
+    public boolean sucheEnglischVokabel(String englisch) {
+        for (Vokabel vokabel : meineListe) {
+            if(vokabel.getDeutscheswort().equals(englisch)) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    public String gibDeutschUebersetzung(String deutsch) {
+        if (!sucheDeutschVokabel(deutsch)) {
+            return null;
+        } else {
+            for (Vokabel vokabel : meineListe) {
+                if (vokabel.getDeutscheswort().equals(deutsch)) {
+                    return vokabel.getEnglischeswort();
+                }
+            }
+        }
+
+        return null;
+    }
+
+    public String gibEnglischUebersetzung(String englisch) {
+        if (!sucheDeutschVokabel(englisch)) {
+            return null;
+        } else {
+            for (Vokabel vokabel : meineListe) {
+                if (vokabel.getEnglischeswort().equals(englisch)) {
+                    return vokabel.getDeutscheswort();
+                }
+            }
+        }
+
+        return null;
+    }
+
+    public String gibZufaelligDeutschWort() {
+
     }
 }
