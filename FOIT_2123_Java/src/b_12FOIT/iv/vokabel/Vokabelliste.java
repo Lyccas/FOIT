@@ -1,6 +1,7 @@
 package b_12FOIT.iv.vokabel;
 
 import java.util.ArrayList;
+import java.util.Random;
 
 public class Vokabelliste {
     private String thema;
@@ -80,6 +81,16 @@ public class Vokabelliste {
     }
 
     public String gibZufaelligDeutschWort() {
+        Random ra = new Random();
+        int zufallszahl = ra.nextInt(meineListe.size());
 
+        return meineListe.get(zufallszahl).getDeutscheswort();
+    }
+
+    public String gibZufaelligEnglischWort() {
+        Random ra = new Random();
+        int zufallszahl = ra.nextInt(meineListe.size());
+
+        return meineListe.get(zufallszahl).getEnglischeswort();
     }
 }

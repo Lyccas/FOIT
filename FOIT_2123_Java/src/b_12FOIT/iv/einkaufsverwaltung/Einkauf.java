@@ -51,6 +51,19 @@ public class Einkauf {
         for (Produkt produkt : produktliste) {
             if(preis < produkt.getPreis()) {
                 preis += produkt.getPreis();
+                return produkt;
+            }
+        }
+
+        return null;
+    }
+
+    public Produkt getNiedrigstenPreis() {
+        double preis = produktliste.get(0).getPreis();
+        for (Produkt produkt : produktliste) {
+            if(preis > produkt.getPreis()) {
+                preis -= produkt.getPreis();
+                return produkt;
             }
         }
 

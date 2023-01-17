@@ -21,6 +21,16 @@ public class Mitarbeiter {
         mitarbeiterGesamt++;
     }
 
+    public Mitarbeiter(String name, String vorname, double gehalt, int alter, boolean leiter) {
+        this.name = name;
+        this.vorname = vorname;
+        this.gehalt = gehalt;
+        this.alter = alter;
+        this.leiter = leiter;
+
+        mitarbeiterGesamt++;
+    }
+
     public String getName() {
         return name;
     }
@@ -67,5 +77,12 @@ public class Mitarbeiter {
 
     public static int getMitarbeiterGesamt() {
         return mitarbeiterGesamt;
+    }
+
+    @Override
+    public String toString() {
+        return "Mitarbeiter: " + name + ", " + vorname + "\n" +
+                "Gehalt: " + gehalt + "\n" +
+                "Alter: " + alter;
     }
 }
