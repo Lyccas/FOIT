@@ -1,7 +1,5 @@
 package b_12FOIT.iv.abteilung;
 
-import b_12FOIT.iv.einkaufsverwaltung.Produkt;
-
 import java.util.ArrayList;
 
 public class Abteilung {
