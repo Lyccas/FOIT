@@ -15,6 +15,13 @@ public class Produkt {
         anzahlProdukte++;
     }
 
+    public Produkt(String bezeichnung, double preis) {
+        this.bezeichnung = bezeichnung;
+        this.preis = preis;
+
+        anzahlProdukte++;
+    }
+
     public String getBezeichnung() {
         return bezeichnung;
     }
@@ -33,5 +40,11 @@ public class Produkt {
 
     public static int getAnzahlProdukte() {
         return anzahlProdukte;
+    }
+
+    @Override
+    public String toString() {
+        return "Produkt: " + bezeichnung + "\n" +
+                "Preis: " + preis;
     }
 }
