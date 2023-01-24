@@ -32,7 +32,7 @@ public class Einkauf {
     }
 
     public int getAnzahlProdukte() {
-        return Produkt.getAnzahlProdukte();
+        return produktliste.size();
     }
 
     public ArrayList<Produkt> getProduktliste() {
@@ -42,20 +42,21 @@ public class Einkauf {
     public double getGesamtpreis() {
         double gesamtPreis = 0;
         for (Produkt produkt : produktliste) {
-            gesamtPreis = gesamtPreis + produkt.getPreis();
+            gesamtPreis += produkt.getPreis();
         }
 
         return gesamtPreis;
     }
 
     public Produkt getProdukt(String bezeichnung) {
+        Produkt suche = null;
         for (Produkt produkt : produktliste) {
-            if (produkt.getBezeichnung() == bezeichnung) {
-                return produkt;
+            if (produkt.getBezeichnung().equals(bezeichnung)) {
+                suche = produkt;
             }
         }
 
-        return null;
+        return suche;
     }
 
     public double getDurchschnittlichenPreis() {
@@ -63,33 +64,31 @@ public class Einkauf {
     }
 
     public Produkt getHoechstenPreis() {
-        double preis = produktliste.get(0).getPreis();
-        for (Produkt produkt : produktliste) {
-            if(preis < produkt.getPreis()) {
-                preis += produkt.getPreis();
-                return produkt;
+        Produkt produkt = produktliste.get(0);
+        for (Produkt p : produktliste) {
+            if (produkt.getPreis() < p.getPreis()) {
+                produkt = p;
             }
         }
 
-        return null;
+        return produkt;
     }
 
     public Produkt getNiedrigstenPreis() {
-        double preis = produktliste.get(0).getPreis();
-        for (Produkt produkt : produktliste) {
-            if(preis > produkt.getPreis()) {
-                preis -= produkt.getPreis();
-                return produkt;
+        Produkt produkt = produktliste.get(0);
+        for (Produkt p : produktliste) {
+            if (produkt.getPreis() > p.getPreis()) {
+                produkt = p;
             }
         }
 
-        return null;
+        return produkt;
     }
 
     public ArrayList<Produkt> gebeAlleProdukteWiederDieWenigerAlsEinEuroKosten() {
         ArrayList<Produkt> produkte = new ArrayList<Produkt>();
-        for(Produkt produkt : produktliste) {
-            if(produkt.getPreis() < 1) {
+        for (Produkt produkt : produktliste) {
+            if (produkt.getPreis() < 1) {
                 produkte.add(produkt);
             }
         }
@@ -99,8 +98,8 @@ public class Einkauf {
 
     public ArrayList<Produkt> suchePreis(double preis) {
         ArrayList<Produkt> produkte = new ArrayList<Produkt>();
-        for(Produkt produkt : produktliste) {
-            if(produkt.getPreis() == preis) {
+        for (Produkt produkt : produktliste) {
+            if (produkt.getPreis() == preis) {
                 produkte.add(produkt);
             }
         }
