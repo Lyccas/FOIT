@@ -1,61 +1,70 @@
 package b_12FOIT.ii.ii_xxxxx.schildkroete;
 
-import java.util.Scanner;
+import java.util.ArrayList;
 
 public class Rennen {
-    public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+    private ArrayList<Schildkroete> teilnehmer = new ArrayList<Schildkroete>();
 
-        Schildkroete schildi1 = new Schildkroete("Peter - Schildi", 45, 2);
-        Schildkroete schildi2 = new Schildkroete("Petra - Schildi", 30, 3);
-        int streckenlaenge = 20;
+    public Rennen() {
 
-        do {
-            if (schildi1.isTankLeer(schildi1.getEnergiepunkte(), schildi1.getAlter())) {
-                System.out.println(schildi1.getName() + " Ihr Tank ist leer, wollen Sie für 4 oder 9 Energiepunkte tanken?");
-                schildi1.tanken(input.nextInt());
+    }
+
+    private void addSchildkroete(Schildkroete schildkroete) {
+        teilnehmer.add(schildkroete);
+    }
+
+    private Schildkroete ermittleGewinner() {
+        Schildkroete gewinner = teilnehmer.get(0);
+        for (Schildkroete schildkroete : teilnehmer) {
+            if (schildkroete.getStrecke() > gewinner.getStrecke()) {
+                gewinner = schildkroete;
             }
-            if (schildi2.isTankLeer(schildi2.getEnergiepunkte(), schildi2.getAlter())) {
-                System.out.println(schildi2.getName() + " Ihr Tank ist leer, wollen Sie für 4 oder 9 Energiepunkte tanken?");
-                schildi2.tanken(input.nextInt());
-            }
-            schildi1.krieche();
-            schildi2.krieche();
-            System.out.println(zeigeRennstrecke(streckenlaenge));
-            System.out.println("1. " + zeigeStreckeSchildi("-", schildi1.getStrecke()));
-            System.out.println("2. " + zeigeStreckeSchildi("-", schildi2.getStrecke()));
-        } while (schildi1.getStrecke() < streckenlaenge && schildi2.getStrecke() < streckenlaenge);
-
-        System.out.println("*".repeat(30));
-
-        if (schildi1.getStrecke() >= streckenlaenge && schildi2.getStrecke() >= streckenlaenge) {
-            if (schildi1.getStrecke() >= schildi2.getStrecke()) {
-                System.out.println(schildi1.getName() + " hat gewonnen!");
-            } else {
-                System.out.println(schildi2.getName() + " hat gewonnen!");
-            }
-        } else if (schildi1.getStrecke() >= streckenlaenge) {
-            System.out.println(schildi1.getName() + " hat gewonnen!");
-        } else {
-            System.out.println(schildi2.getName() + " hat gewonnen!");
         }
 
-        System.out.println("*".repeat(30));
-
-        System.out.println(schildi1.toString());
-
-        System.out.println("*".repeat(30));
-
-        System.out.println(schildi2.toString());
-
-        System.out.println("*".repeat(30));
+        return gewinner;
     }
 
-    public static String zeigeRennstrecke(int rennstrecke) {
-        return "   " + "=".repeat(rennstrecke);
+    private Schildkroete aeltesteSchildkroete() {
+        Schildkroete aelteste = teilnehmer.get(0);
+        for (Schildkroete schildkroete : teilnehmer) {
+            if (schildkroete.getAlter() > aelteste.getAlter()) {
+                aelteste = schildkroete;
+            }
+        }
+
+        return aelteste;
     }
 
-    public static String zeigeStreckeSchildi(String zeichen, int zuruckgelegteStrecke) {
-        return zeichen.repeat(zuruckgelegteStrecke) + "x";
+    private Schildkroete juengsteSchildkroete() {
+        Schildkroete juengste = teilnehmer.get(0);
+        for (Schildkroete schildkroete : teilnehmer) {
+            if (schildkroete.getAlter() < juengste.getAlter()) {
+                juengste = schildkroete;
+            }
+        }
+
+        return juengste;
+    }
+
+    private Schildkroete schnellsteSchildkroete() {
+        Schildkroete schnellste = teilnehmer.get(0);
+        for (Schildkroete schildkroete : teilnehmer) {
+            if (schildkroete.getMaxSpeed() > schnellste.getMaxSpeed()) {
+                schnellste = schildkroete;
+            }
+        }
+
+        return schnellste;
+    }
+
+    private Schildkroete langsamsteSchildkroete() {
+        Schildkroete langsamste = teilnehmer.get(0);
+        for (Schildkroete schildkroete : teilnehmer) {
+            if (schildkroete.getMaxSpeed() < langsamste.getMaxSpeed()) {
+                langsamste = schildkroete;
+            }
+        }
+
+        return langsamste;
     }
 }
