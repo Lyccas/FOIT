@@ -12,6 +12,9 @@ public class Rennstart {
 
         Rennen rennen = new Rennen();
 
+        rennen.addSchildkroete(schildi1);
+        rennen.addSchildkroete(schildi2);
+
         do {
             if (schildi1.isTankLeer(schildi1.getEnergiepunkte(), schildi1.getAlter())) {
                 System.out.println(schildi1.getName() + " Ihr Tank ist leer, wollen Sie für 4 oder 9 Energiepunkte tanken?");
@@ -30,17 +33,8 @@ public class Rennstart {
 
         System.out.println("*".repeat(30));
 
-        System.out.println();
-
-        System.out.println("*".repeat(30));
-
-        System.out.println(schildi1.toString());
-
-        System.out.println("*".repeat(30));
-
-        System.out.println(schildi2.toString());
-
-        System.out.println("*".repeat(30));
+        System.out.println("Gewinner:");
+        System.out.println(rennen.ermittleGewinner());
     }
 
     public static String zeigeRennstrecke(int rennstrecke) {

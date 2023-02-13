@@ -44,20 +44,7 @@
       <recent name="D:\FOIT\FOIT_2123_Java\src\b_12FOIT\x_klassenarbeit\tier" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainEinkauf">
-    <configuration name="Fall1Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="b_12FOIT.iv.schueler.fall_1.Fall1Main" />
-      <module name="FOIT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="b_12FOIT.iv.schueler.fall_1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Rennstart">
     <configuration name="Fall2Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="b_12FOIT.iv.schueler.fall_2.Fall2Main" />
       <module name="FOIT" />
@@ -110,13 +97,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Rennstart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="b_12FOIT.ii.ii_xxxxx.schildkroete.Rennstart" />
+      <module name="FOIT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="b_12FOIT.ii.ii_xxxxx.schildkroete.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Rennstart" />
         <item itemvalue="Application.MainEinkauf" />
         <item itemvalue="Application.MainAbteilung" />
         <item itemvalue="Application.Fall3Main" />
         <item itemvalue="Application.Fall2Main" />
-        <item itemvalue="Application.Fall1Main" />
       </list>
     </recent_temporary>
   </component>

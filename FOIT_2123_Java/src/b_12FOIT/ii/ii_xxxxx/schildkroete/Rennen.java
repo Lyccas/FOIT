@@ -9,11 +9,19 @@ public class Rennen {
 
     }
 
-    private void addSchildkroete(Schildkroete schildkroete) {
+    public ArrayList<Schildkroete> getTeilnehmer() {
+        return teilnehmer;
+    }
+
+    public void setTeilnehmer(ArrayList<Schildkroete> teilnehmer) {
+        this.teilnehmer = teilnehmer;
+    }
+
+    public void addSchildkroete(Schildkroete schildkroete) {
         teilnehmer.add(schildkroete);
     }
 
-    private Schildkroete ermittleGewinner() {
+    public Schildkroete ermittleGewinner() {
         Schildkroete gewinner = teilnehmer.get(0);
         for (Schildkroete schildkroete : teilnehmer) {
             if (schildkroete.getStrecke() > gewinner.getStrecke()) {
@@ -24,7 +32,7 @@ public class Rennen {
         return gewinner;
     }
 
-    private Schildkroete aeltesteSchildkroete() {
+    public Schildkroete aeltesteSchildkroete() {
         Schildkroete aelteste = teilnehmer.get(0);
         for (Schildkroete schildkroete : teilnehmer) {
             if (schildkroete.getAlter() > aelteste.getAlter()) {
@@ -35,7 +43,7 @@ public class Rennen {
         return aelteste;
     }
 
-    private Schildkroete juengsteSchildkroete() {
+    public Schildkroete juengsteSchildkroete() {
         Schildkroete juengste = teilnehmer.get(0);
         for (Schildkroete schildkroete : teilnehmer) {
             if (schildkroete.getAlter() < juengste.getAlter()) {
@@ -46,7 +54,7 @@ public class Rennen {
         return juengste;
     }
 
-    private Schildkroete schnellsteSchildkroete() {
+    public Schildkroete schnellsteSchildkroete() {
         Schildkroete schnellste = teilnehmer.get(0);
         for (Schildkroete schildkroete : teilnehmer) {
             if (schildkroete.getMaxSpeed() > schnellste.getMaxSpeed()) {
@@ -57,7 +65,7 @@ public class Rennen {
         return schnellste;
     }
 
-    private Schildkroete langsamsteSchildkroete() {
+    public Schildkroete langsamsteSchildkroete() {
         Schildkroete langsamste = teilnehmer.get(0);
         for (Schildkroete schildkroete : teilnehmer) {
             if (schildkroete.getMaxSpeed() < langsamste.getMaxSpeed()) {
