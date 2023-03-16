@@ -31,7 +31,7 @@ public class Main {
         System.out.println("Wie heißt der/die neue Bewohner/in? ");
         Bewohner bewohner = new Bewohner();
         bewohner.setName(input.nextLine());
-        System.out.println("Welchen Pflegegrad hat diese/r Bewohner/in");
+        System.out.println("Welchen Pflegegrad hat diese/r Bewohner/in? ");
         switch (input.nextInt()) {
             case 1:
                 bewohner.setPflegegrad(grad1);
