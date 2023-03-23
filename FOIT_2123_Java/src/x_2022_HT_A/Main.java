@@ -1,4 +1,4 @@
-package x_2022_HT_A.Pflegeheim;
+package x_2022_HT_A;
 
 import java.util.Scanner;
 
