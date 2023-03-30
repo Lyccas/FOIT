@@ -1,4 +1,4 @@
-package x_2022_HT_A.Pflegeheim;
+package x_2022_HT_A;
 
 public class Pflegegrad {
     private int grad;
