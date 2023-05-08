@@ -47,7 +47,7 @@ public class Main {
         callcenterVerwaltung.setPlanNeueinstellung(input.nextInt());
         System.out.println("");
         System.out.println("~".repeat(50));
-        System.out.println("Im Beschwerdemanagment benötigte Mitarbeiter: " + callcenterVerwaltung.benoetigteMitarbeiter(83));
+        System.out.println("Im Beschwerdemanagment benötigte Mitarbeiter: " + callcenterVerwaltung.benoetigteMitarbeiter(43));
         System.out.println("");
         System.out.println("~".repeat(50));
         System.out.println(callcenter.getPersonalListe());
