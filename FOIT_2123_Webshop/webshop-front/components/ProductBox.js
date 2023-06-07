@@ -72,7 +72,7 @@ export default function ProductBox({_id,title,description,price,images}) {
         <Title href={url}>{title}</Title>
         <PriceRow>
           <Price>
-            €{price}
+            {price}€
           </Price>
           <Button block onClick={() => addProduct(_id)} primary outline>
             Zum Einkaufswagen hinzufügen

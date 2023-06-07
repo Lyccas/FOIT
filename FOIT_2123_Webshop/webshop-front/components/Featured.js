@@ -8,7 +8,7 @@ import {CartContext} from "@/components/CartContext";
 
 const Bg = styled.div`
   background-color: #222;
-  color:#fff;
+  color: #fff;
   padding: 50px 0;
 `;
 const Title = styled.h1`
@@ -79,7 +79,7 @@ export default function Featured({product}) {
             </div>
           </Column>
           <Column>
-            <img src="https://dawid-next-ecommerce.s3.amazonaws.com/1679151719649.png" alt=""/>
+            <img src="https://bsu-webshop.s3.eu-central-1.amazonaws.com/1686144064626.jpg" alt=""/>
           </Column>
         </ColumnsWrapper>
       </Center>
