@@ -28,15 +28,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;H:/FOIT&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "H:/FOIT",
+    "settings.editor.selected.configurable": "shared-indexes"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\FOIT\FOIT_2123_Java\src\b_12FOIT\x_klassenarbeit\massumrechner" />
@@ -44,13 +44,13 @@
       <recent name="D:\FOIT\FOIT_2123_Java\src\b_12FOIT\x_klassenarbeit\tier" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.x_2022_HT_B.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="x_2022_HT_A.Main" />
+  <component name="RunManager" selected="Application.UhrzeitBerechnung">
+    <configuration name="A24" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gui.A24" />
       <module name="FOIT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="x_2022_HT_A.*" />
+          <option name="PATTERN" value="gui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -58,12 +58,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainEinkauf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="b_12FOIT.iv.einkaufsverwaltung.MainEinkauf" />
+    <configuration name="Start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="projekt.vokabeltrainer.Start" />
       <module name="FOIT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="b_12FOIT.iv.einkaufsverwaltung.*" />
+          <option name="PATTERN" value="projekt.vokabeltrainer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="x_2022_HT_A.MainGUI" />
+    <configuration name="UhrzeitBerechnung" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a_11FOIT.UhrzeitBerechnung" />
       <module name="FOIT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="x_2022_HT_A.*" />
+          <option name="PATTERN" value="a_11FOIT.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Rennstart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="b_12FOIT.ii.ii_xxxxx.schildkroete.Rennstart" />
+    <configuration name="Zufallsrabatt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a_11FOIT.Zufallsrabatt" />
       <module name="FOIT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="b_12FOIT.ii.ii_xxxxx.schildkroete.*" />
+          <option name="PATTERN" value="a_11FOIT.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="x_2022_HT_B.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="x_2022_HT_B.Main" />
+    <configuration name="ZufallsrabattGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a_11FOIT.ZufallsrabattGUI" />
       <module name="FOIT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="x_2022_HT_B.*" />
+          <option name="PATTERN" value="a_11FOIT.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.x_2022_HT_B.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.MainGUI" />
-        <item itemvalue="Application.Rennstart" />
-        <item itemvalue="Application.MainEinkauf" />
+        <item itemvalue="Application.UhrzeitBerechnung" />
+        <item itemvalue="Application.ZufallsrabattGUI" />
+        <item itemvalue="Application.Start" />
+        <item itemvalue="Application.A24" />
+        <item itemvalue="Application.Zufallsrabatt" />
       </list>
     </recent_temporary>
   </component>
@@ -141,5 +141,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
